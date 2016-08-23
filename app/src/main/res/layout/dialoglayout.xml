@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_selectphoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/corners_bg"
+                    android:text="从手机相册选择"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/colorPrimaryDark" />
+
+
+                <Button
+                    android:id="@+id/btn_makeaphoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/corners_bg"
+                    android:text="拍一张"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/colorPrimaryDark" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/corners_bg"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_photocancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/corners_bg"
+                    android:text="取消"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/colorPrimaryDark" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
